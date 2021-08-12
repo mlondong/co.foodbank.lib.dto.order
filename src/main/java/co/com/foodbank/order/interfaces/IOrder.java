@@ -1,10 +1,11 @@
-package co.com.foodbank.order.dto;
+package co.com.foodbank.order.interfaces;
 
 import java.util.Collection;
 import java.util.Date;
+import co.com.foodbank.message.interfaces.IMessage;
 import co.com.foodbank.packaged.dto.IPackaged;
-import co.com.foodbank.user.model.IBeneficiary;
-import co.com.foodbank.user.model.IVolunter;
+import co.com.foodbank.user.interfaces.IBeneficiary;
+import co.com.foodbank.user.interfaces.IVolunter;
 
 /**
  * @author mauricio.londono@gmail.com co.com.foodbank.order.dto 9/08/2021
@@ -21,9 +22,6 @@ public interface IOrder {
 
     Collection<IPackaged> getPackages();
 
-    // IStateOrder getState();
-
-
-    // Collection<Message> getMessage();
+    Collection<IMessage> getMessage();
 
 }
