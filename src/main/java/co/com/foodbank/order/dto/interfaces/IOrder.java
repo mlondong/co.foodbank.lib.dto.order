@@ -2,7 +2,7 @@ package co.com.foodbank.order.dto.interfaces;
 
 import java.util.Collection;
 import java.util.Date;
-import co.com.foodbank.message.interfaces.IMessage;
+import co.com.foodbank.message.dto.interfaces.IMessage;
 import co.com.foodbank.packaged.dto.IPackaged;
 import co.com.foodbank.user.interfaces.IUser;
 
