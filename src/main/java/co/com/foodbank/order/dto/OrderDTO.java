@@ -4,7 +4,7 @@ import java.util.Date;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import co.com.foodbank.user.request.RequestUserData;
+import co.com.foodbank.user.dto.request.RequestBeneficiaryData;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -22,6 +22,6 @@ public class OrderDTO {
     private Date dateOrder;
 
     @Valid
-    private RequestUserData beneficiary;
+    private RequestBeneficiaryData beneficiary;
 
 }
